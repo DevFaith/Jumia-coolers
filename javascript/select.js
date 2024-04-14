@@ -19,7 +19,7 @@ var coolers1 = {
   var coolers3 = {
     Image: "/images/image9.jpg",
     icoolers: "image3",
-    name: "Lg 11",
+    name: "LenovoX01",
     discountedPrice: 60000,
     originalPrice: 70500,
     itemId: "I003"
@@ -124,5 +124,8 @@ var coolers1 = {
   }     else if (delivery == "Wendani") {
     document.getElementById("total").innerText = total + Wendani;
 }
+  else if (delivery == "Nairobi") {
+    document.getElementById("total").innerText = total + Wendani;
+  }
     };
   }
