@@ -4,7 +4,7 @@ var coolers1 = {
     name: "Samsung SE",
     discountedPrice: "Ksh" + " " + 30000,
     originalPrice: "Ksh" + " " + 38500,
-    itemId: "I001"
+    itemId: "I0001"
   };
   document.getElementById("image").src = coolers1.Image;
   document.getElementById("name1").innerText = coolers1.name;
@@ -16,8 +16,8 @@ var coolers1 = {
     icoolers: "image2",
     name: "GE 10",
     discountedPrice: "Ksh" + " " + 55000,
-    originalPrice: "Ksh" + " " + 60500,
-    itemId: "I002"
+    originalPrice: "Ksh" + " " + 60550,
+    itemId: "I0002"
   };
   document.getElementById("image2").src = coolers2.Image;
   document.getElementById("name2").innerText = coolers2.name;
@@ -27,10 +27,10 @@ var coolers1 = {
   var coolers3 = {
     Image: "/images/image9.jpg",
     icoolers: "image3",
-    name: "Lg 11",
+    name: "LenovoX01",
     discountedPrice: "Ksh" + " " + 60000,
-    originalPrice: "Ksh" + " " + 70500,
-    itemId: "I003"
+    originalPrice: "Ksh" + " " + 70550,
+    itemId: "I0003"
   };
   document.getElementById("image3").src = coolers3.Image;
   document.getElementById("name3").innerText = coolers3.name;
@@ -42,8 +42,8 @@ var coolers1 = {
     icoolers: "image4",
     name: "Whirlpool 12",
     discountedPrice: "Ksh" + " " + 70000,
-    originalPrice: "Ksh" + " " + 75000,
-    itemId: "I004",
+    originalPrice: "Ksh" + " " + 75050,
+    itemId: "I0004",
   };
   document.getElementById("image4").src = coolers4.Image;
   document.getElementById("name4").innerText = coolers4.name;
